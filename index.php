@@ -56,17 +56,33 @@ body {
 .card-info img {
   width: 100%;
   height: auto;
+  max-height: 300px;
+  object-fit: cover;
 }
 .resume-info{
   display: flex;
   padding-left: 20px;
-  align-items: 20px;
+  align-items: flex-start;
   gap: 25px;
+  flex-wrap: wrap;
 }
 .accordion{
-  width: 350px;
+  width: 100%;
+  max-width: 450px;
   padding: 0;
   color: black;
+  flex: 1;
+}
+.accordion-body{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.accordion-body img {
+  width: 200px;
+  height: auto;
+  display: block;
+  border-radius: 16px;
 }
   
     </style>
@@ -83,7 +99,7 @@ body {
     ?>
 <div class = "container">
   <div class = "card-info">
-    <img src="https://cdn.inst-fs-sin-prod.inscloudgate.net/b88b3e37-4533-49b0-88d5-aeacde3db157?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6ImNkbiJ9.eyJyZXNvdXJjZSI6Ii9iODhiM2UzNy00NTMzLTQ5YjAtODhkNS1hZWFjZGUzZGIxNTciLCJ0ZW5hbnQiOiJjYW52YXMiLCJpYXQiOjE3Nzc2NzQyMDMsImV4cCI6MTc3Nzc2MDYwM30.ymFT6NH1P6lQ0m2HrUKReOkkpb99N74trWON8ATWiyb_ZwxIfcYuY4yLFLt0Hr1WxhJbIetxnAPFHmXXC5jXmQ&content_type=image%2Fpng">
+    <img src="Reimone Valdes - Headshot.png">
   <div class = "contact-info">
     <p class = "name"> <?= "I am $firstname $midint $lastname" ?> </p>
     <h3>Student @ FEU Tech</h3>
@@ -127,8 +143,8 @@ body {
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+         <img src="https://images.credly.com/size/340x340/images/2210b6fe-0eda-415a-8aba-6c1400566728/ITS-Badges_Java_1200px.png">
+      <img src="https://images.credly.com/size/340x340/images/e2dc688d-de61-44a5-81af-ee96f117a211/ITS-Badges_HTML-and-CSS_1200px.png">
     </div>
   </div>
 
