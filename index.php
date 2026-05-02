@@ -83,7 +83,7 @@ body {
     ?>
 <div class = "container">
   <div class = "card-info">
-    <img src="https://media.discordapp.net/attachments/590735643190100005/1499273824804274223/Reimone_Valdes_-_Headshot.JPG?ex=69f4330e&is=69f2e18e&hm=9068ec28a067d89f3f19ef47d30c1d4b909b446a34142ea08989834a571e8595&=&format=webp&width=350&height=350" width = "250" height ="250">
+    <img src="https://cdn.inst-fs-sin-prod.inscloudgate.net/b88b3e37-4533-49b0-88d5-aeacde3db157?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6ImNkbiJ9.eyJyZXNvdXJjZSI6Ii9iODhiM2UzNy00NTMzLTQ5YjAtODhkNS1hZWFjZGUzZGIxNTciLCJ0ZW5hbnQiOiJjYW52YXMiLCJpYXQiOjE3Nzc2NzQyMDMsImV4cCI6MTc3Nzc2MDYwM30.ymFT6NH1P6lQ0m2HrUKReOkkpb99N74trWON8ATWiyb_ZwxIfcYuY4yLFLt0Hr1WxhJbIetxnAPFHmXXC5jXmQ&content_type=image%2Fpng">
   <div class = "contact-info">
     <p class = "name"> <?= "I am $firstname $midint $lastname" ?> </p>
     <h3>Student @ FEU Tech</h3>
