@@ -66,6 +66,7 @@ body {
 .accordion{
   width: 350px;
   padding: 0;
+  color: black;
 }
   
     </style>
